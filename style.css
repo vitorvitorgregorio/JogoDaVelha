@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    
+}
+main {
+    padding-top: 80px;
+}
+h1{
+    text-shadow: 10px 10px 20px #000000;
+    padding: 36px 0px 0px 0;
+}
+.square {
+    border-radius: 8px;
+    text-align: center;
+    width: 50px;
+    margin: 8px;
+    background-color: #564c7ead;
+    display: inline-block;
+    padding: 40px;
+    color: #564c7ead;
+    font-size: 34px;
+}
+.square:hover {
+    cursor:  url(./cursor.cur);
+    background-color: #564c7e;    
+}
+.jogador, .vencedor{
+    margin: 16px;
+    font-size: 16px;
+}
+button {
+    border: 1px solid #564c7e;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 44px;
+    padding: 8px 16px;
+    background-color: #00000021;
+}
+button:hover {
+    background-color: #564c7e;
+    cursor: pointer;
+}
